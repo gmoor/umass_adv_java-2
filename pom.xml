@@ -26,6 +26,12 @@
                         <target>1.8</target>
                     </configuration>
                 </plugin>
+                     
+                <plugin>
+	         <groupId>org.apache.maven.surefire</groupId>
+	         <artifactId>surefire-junit47</artifactId>
+	         <version>3.0.0-M3</version>
+                </plugin>         
             </plugins>
         </pluginManagement>
     </build>
